@@ -1,0 +1,34 @@
+.header-container {
+    background-color: rgba(28, 43, 53, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.header-container ul a {
+    text-decoration: none;
+    color: white;
+}
+.header-container ul a:hover {
+    color: gray;
+}
+.header-container ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 10%;
+}
+.header-container img {
+    margin-left: 10%;
+}
+@media screen and (max-width: 576px) {
+    .header-container ul {
+        display: none;
+    }
+    .header-container img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
