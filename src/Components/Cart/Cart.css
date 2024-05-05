@@ -1,0 +1,12 @@
+.cart {
+    position: sticky;
+    top: 0;
+}
+h2 {
+    padding-top: 20px;
+}
+h5 {
+    font-size: large;
+    position: relative;
+    left: 20%;
+}
